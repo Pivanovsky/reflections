@@ -1,0 +1,10 @@
+== What happens when you initialize a repository? Why do you need to do it?
+
+A new repository is created. We need it to start tracking our files.
+
+== How is the staging area different from the working directory and the repository? 
+== What value do you think it offers?
+
+It stands between two as a buffer zone. It contains only files added to, when working 
+directory contains all the files physically and repository contains all the commits 
+and other git artefacts.
