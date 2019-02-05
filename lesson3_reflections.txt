@@ -1,0 +1,4 @@
+== When would you want to use a remote repository rather than keeping all your work local?
+
+I would rather use a remote repository for the most interesting projects which will form
+my portfolio.
