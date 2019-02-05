@@ -8,3 +8,37 @@ A new repository is created. We need it to start tracking our files.
 It stands between two as a buffer zone. It contains only files added to, when working 
 directory contains all the files physically and repository contains all the commits 
 and other git artefacts.
+
+== How can you use the staging area to make sure you have one commit per logical change?
+
+I can add all necessary files in the staging area, then can run git diff to see what is
+there and them commmit.
+
+== What are some situations when branches would be helpful in keeping your 
+== history organized? How would branches help?
+
+When I want to experiment or to create special version of the code it is better
+to keep master branch unchanged until I finished new version and I am ready to
+merge the changes in main branch.
+
+== How do the diagrams help you visualize the branch structure?
+
+It can be seen where we changed the context starting working under new feachers
+and how many and what exactly commits were done in each branch.
+
+== What is the result of merging two branches together? Why do we represent 
+== it in the diagram the way we do?
+
+After a merge we have one branch master which now contains all the changes done by
+commits in two branches. We represent it in the diagram to show where go commits
+from two branches, who are the parents for new merge commit, how we can reach
+commits from two branches.
+
+== What are the pros and cons of Git’s automatic merging vs. always doing 
+== merges manually?
+
+pros:
+ - time
+ - safe from mechanical mistakes
+cons:
+ - in case of conflict, system can not decide
