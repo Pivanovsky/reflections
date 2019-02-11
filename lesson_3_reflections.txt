@@ -2,3 +2,36 @@
 
 I would rather use a remote repository for the most interesting projects which will form
 my portfolio.
+
+== Why might you want to always pull changes manually rather than having Git 
+== automatically stay up-to-date with your remote repository?
+
+I want to control this process and pull only verified up to date changes.
+
+== Describe the differences between forks, clones, and branches. 
+== When would you use one instead of another?
+
+Fork - is a clone of another repo done on github, it is a github feature,
+is used to clone repos of other github users.
+Clone - you can clone any remote or local repo to have you own version,
+is used to create your own copy of any repo.
+Branch - new context for the thing I work under, 
+is used to save master unbroken and verified, to have posibility to do experiments.
+
+== What is the benefit of having a copy of the last known state of the remote
+== stored locally?
+
+We can track our changes compairing with origin/master.
+
+== How would you collaborate without using Git or GitHub? What would be easier, 
+== and what would be harder?
+
+We will notify each other what part of code we work under at the moment to avoid
+collisions. It would be harder to work under the same file simulteniously.
+
+== When would you want to make changes in a separate branch rather than directly 
+== in master? What benefits does each approach have?
+
+When I want to experiment, when I want to start working under new feature, every 
+time I want to change something, but I do not want to break the master branch.
+My master is in work condition. I can work under the feature and use vcs for that.
